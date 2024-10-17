@@ -11,8 +11,8 @@ using ServerSide;
 namespace ServerSide.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241015072703_mig")]
-    partial class mig
+    [Migration("20241016041131_mig1")]
+    partial class mig1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
